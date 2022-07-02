@@ -1499,7 +1499,7 @@ header .logo-mobile svg:hover {
 }
 
 @media (min-width: 993px) {
-    .catalog-block.wide .item {
+    .catalog-block.wide {
         width: 100%;
         margin-bottom: 20px !important;
     }
@@ -1746,6 +1746,7 @@ header .logo-mobile svg:hover {
     -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
 }
+
 
 @media (max-width: 992px) {
     .catalog-item {
@@ -2401,7 +2402,9 @@ header .logo-mobile svg:hover {
         margin-bottom: 0px;
     }
 }
-
+.mt-61{
+    margin-top: 61px;
+}
 .form__col {
     width: calc(100% / 2 - 10px);
 }
@@ -3118,6 +3121,7 @@ footer:before {
     height: 598px;
     margin-top: 161px;
     margin-bottom: 161px;
+    padding-bottom: 61px;
 }
 .flex-end{
     display: flex;
@@ -3208,10 +3212,87 @@ footer:before {
     line-height: 48px;
     color: #ffffff;
     margin-bottom: 58px;
-    margin-top: 0px;
+}
+.mt-104{
+    margin-top: 104px;
+}
+.border-green-img{
+    border: 1px solid #00AF70;
+    padding: 19px 11px 18px 12px;
+    margin-right: 12px;
+    width: 95px;
+    height: 95px;
+}
+.green-head{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(0, 175, 112, 1);
+    display: flex;
+    margin-bottom: 35px;
+}
+.green-text{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(0, 175, 112, 1);
+}
+.mb-34{
+    margin-bottom: 34px;
+}
+.mt-31{
+    margin-top: 31px;
+    margin-bottom: 30px;
+}
+.gray{
+    height: 1px;
+}
+.bg-black{
+    background: #000000;
+    margin-bottom: 50px;
+}
+.green-link{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(0, 175, 112, 1);
+}
+.border-gray-img{
+    border: 1px solid #EFEFEF;
+    padding: 19px 11px 18px 12px;
+    width: 95px;
+    height: 95px;
+}
+.text-information-about{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Georgia';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 56px;
+    margin-bottom: 22px;
+}
+.border-gray-schema{
+    border: 1px solid #EFEFEF;
+    padding: 32px 105px 32px 48px;
+}
+.mr-12{
+    margin-right: 12px;
 }
 .mb-168{
     margin-bottom: 168px;
+}
+.ml-12{
+    margin-left: 12px;
+}
+.text-information{
+    font-size: 20px;
+    font-weight: 400;
+}
+.ml-115{
+    margin-left: 115px;
 }
 .box {
     display: flex;
