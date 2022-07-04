@@ -1467,10 +1467,13 @@ header .logo-mobile svg:hover {
     width: calc(100% / 3 - 18px);
     margin-bottom: 27px;
 }
-
+.catalog-block .card-item {
+    width: calc(300% / 3 - 18px);
+    margin-bottom: 27px;
+}
 @media (max-width: 992px) {
     .catalog-block .item {
-        width: calc(100% / 2 - 15px);
+        width: calc(10% / 2 - 15px);
         margin-bottom: 20px;
     }
 }
@@ -1838,6 +1841,11 @@ header .logo-mobile svg:hover {
     position: relative;
     height: 320px;
 }
+.catalog-item__imag {
+    width: 100%;
+    position: relative;
+    height: 320px;
+}
 
 @media (max-width: 992px) {
     .catalog-item__image {
@@ -1884,13 +1892,18 @@ header .logo-mobile svg:hover {
 .catalog-item__content {
     padding: 30px 40px 0 40px;
 }
-
+.catalog-item__contente {
+    padding: 30px 40px 0 40px;
+    margin-left: -60px;
+}
 @media (max-width: 992px) {
     .catalog-item__content {
         padding: 17px 20px 0 20px;
     }
 }
-
+.mt-80{
+    margin-top: 80px;
+}
 .catalog-item__title {
     font-family: "Montserrat", sans-serif;
     display: block;
@@ -1984,6 +1997,18 @@ header .logo-mobile svg:hover {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    height: 66px;
+}
+.catalog-item__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-end;
     height: 66px;
 }
 
@@ -3135,6 +3160,17 @@ footer:before {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 50px;
+}
+.row{
+    display: grid;
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    gap: 50px;
+}
+.grid-col-3{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 50px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
 }
 .data{
     font-family: 'Georgia';
